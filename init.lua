@@ -1,6 +1,6 @@
 local PATH = (...):gsub('%.init$', '')
 
-require("init").mount()
+require("").mount()
 
 local fontSDF = love.graphics.newFontMSDF(PATH.."/exo.fnt", PATH.."/exo.png")
 local fontTTF = love.graphics.newFont(PATH.."/comic.ttf", 32)
